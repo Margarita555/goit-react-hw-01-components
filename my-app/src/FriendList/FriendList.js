@@ -6,7 +6,7 @@ function FriendList({ friends }) {
         <ul className={s.friendList}>
             {friends.map(friend => (      
                 <li key={friend.id} className={s.item}>
-                    <span className={s.status}>{friend.isOnline }</span>
+                    <span className={s.status} style={friend.isOnline ? { backgroundColor: '#00cc00' } : { backgroundColor: '#ff0000' }}>{friend.isOnline}</span>
                     <img className={s.avatar} src={friend.avatar } alt="User avatar" width="48" />
                     <p className={s.name}>{friend.name }</p>
                 </li>
