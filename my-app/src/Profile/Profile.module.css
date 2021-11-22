@@ -49,7 +49,7 @@
 .box {
   flex-basis: calc(100% / 3);
   border: 1px solid rgb(233, 233, 233);
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .label {

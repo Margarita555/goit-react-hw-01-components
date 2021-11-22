@@ -1,0 +1,23 @@
+.statistics {
+  width: 300px;
+  padding-top: 30px;
+  box-shadow: -1px 1px 12px -6px rgba(34, 60, 80, 0.38);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.statList {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  padding: 20px 5px;
+}
+
+.label {
+  font-size: 16px;
+}
