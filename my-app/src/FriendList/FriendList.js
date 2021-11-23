@@ -1,5 +1,5 @@
 import s from './FriendList.module.css';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 function FriendList({ friends }) {
     return (
@@ -15,9 +15,8 @@ function FriendList({ friends }) {
 
   )
 }
-// FriendList.propTypes = {
-//     title: PropTypes.string.isRequired,
-    
-// }
+FriendList.propTypes = {
+    friends: PropTypes.array.isRequired,  
+}
 
 export default FriendList;

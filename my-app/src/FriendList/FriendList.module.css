@@ -1,8 +1,10 @@
 .item {
-  width: 300px;
+  margin: 10px auto;
+  width: 330px;
   display: flex;
   align-items: center;
-  padding: 15px;
+  padding: 20px;
+  border-radius: 3px;
   box-shadow: 1px 1px 8px 0px rgba(34, 60, 80, 0.2);
 }
 

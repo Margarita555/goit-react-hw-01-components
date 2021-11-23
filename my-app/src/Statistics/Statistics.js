@@ -2,7 +2,6 @@ import s from './Statistics.module.css';
 import PropTypes from 'prop-types';
 
 function Statistics({ title, stats }) {
-
     function getRandomColor() {
     return "#" + (Math.round(Math.random() * 0XFFFFFF)).toString(16);
     }
@@ -24,7 +23,7 @@ function Statistics({ title, stats }) {
 }
 Statistics.propTypes = {
     title: PropTypes.string.isRequired,
-    
+    stats: PropTypes.array.isRequired
 }
 
 export default Statistics;
