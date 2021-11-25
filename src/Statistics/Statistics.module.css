@@ -13,14 +13,12 @@
 
 .statList {
   display: flex;
-  /* justify-content: space-evenly; */
-  /* justify-content: space-around; */
 }
 
 .item {
   padding: 15px 5px;
   flex: 1;
-  color: #ffffff;
+  color: #f0ebeb;
 }
 
 .label {
